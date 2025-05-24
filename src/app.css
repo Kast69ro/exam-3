@@ -1,0 +1,38 @@
+h4{
+    margin: 0%;
+}
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.find{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.find select,input{
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.sel{
+    display: flex;
+    gap: 20px;
+}
+
+.info svg {
+    width: 50px;
+    height: 50px;
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
