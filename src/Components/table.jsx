@@ -116,7 +116,9 @@ export default function BasicTable() {
     e.preventDefault()
     if(!idx) return
     setData(data.map((user)=>user.id == idx?{...data,name:name,email:email,status:editStatus,city:editCity,phone:editPhone}:user))
+    setOpenEdit(false)
   }
+
 
   return (
     <>
